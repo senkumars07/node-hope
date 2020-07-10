@@ -1,0 +1,13 @@
+app:
+  service:
+    port: 9000
+  db:
+    master-atlas: mongodb://localhost:27017
+    master-db: master
+  cli-source:
+    users: https://jsonplaceholder.typicode.com/users
+    posts: https://jsonplaceholder.typicode.com/posts
+    comments: https://jsonplaceholder.typicode.com/comments
+    user-limit: 3
+  secure:
+    token: 7bc78545b1a3923cc1e1e19523fd5c3f20b409509
